@@ -1,0 +1,47 @@
+
+
+.firstfooter{
+    
+    background-color: #111365;
+    
+}
+.footer{
+    
+    background-color: #000000;
+    margin-top: -30px;
+    
+}
+#hr{
+    height: 2px;
+    padding: 1px;
+    margin-top: 10px;
+}
+.text{
+    color: #ffffff;
+}
+i{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.ico #facebook{
+    border:1px solid #fff;
+    border-radius: 100%;
+    background:#3b5999;
+    padding: 10px;
+    /* color: #3b5999; */
+}
+.ico #instagram{
+    border:1px solid #fff;
+    border-radius: 100%;
+    background:#e4405f;
+    padding: 10px;
+    /* color: #3b5999; */
+}
+.ico #twitter{
+    border:1px solid #fff;
+    border-radius: 100%;
+    background:#55acee;
+    padding: 10px;
+    /* color: #3b5999; */
+}
