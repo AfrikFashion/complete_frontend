@@ -1,0 +1,504 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+
+#feature{
+  /* background:#e75656; */
+  background-color:#f2f2f2 ;
+  padding-top: 40px;
+  
+}
+
+.feature-wrap{
+  padding-bottom: 55px;
+}
+
+.feature-wrap h2{
+  margin-top:10px;
+  font-size:20px;
+}
+
+.feature-wrap h3{
+ font-size: 16px;
+ color: #787878;
+ font-weight:400;
+ line-height: 24px;
+}
+
+.feature-wrap i{
+ font-size: 48px;
+ height: 110px;
+ width: 110px;
+ margin: 3px;
+ background-color:#fff ;
+ border-radius: 100%;
+ line-height: 110px;
+ text-align: center;
+ border: 3px solid #fff;
+ box-shadow:inset 0 0 0 5px #f2f2f2;
+ color: #e8ce0e;
+ float: left;
+ margin-right: 45px;
+}
+#gal{
+  color: #000000;
+}
+
+
+/* input[type="checkbox"]:checked ~ .grid { opacity: .125;  background: #000;} */
+
+.grid {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #fff;
+  z-index: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  padding: 16px;
+  overflow: auto;
+  text-align: center;
+  -webkit-transition: opacity .75s;
+  transition: opacity .75s;
+}
+
+.grid .grid-item {
+  width: 25%;
+  display: inline-block;
+  padding: 16px;
+  opacity: .75;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.grid .grid-item:hover { opacity: 1; }
+/* @media screen and (max-width: 1024px) {
+
+.grid .grid-item { width: 50%; }
+}
+@media screen and (max-width: 480px) {
+
+.grid .grid-item { width: 100%; }
+} */
+b{
+  color: blue;
+}
+.grid img {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/******************* Accordion Demo - 3 *****************/
+#accordion3{
+  padding-left: 80px;
+  overflow: hidden;
+  position: relative;
+  /* z-index: 1; */
+}
+#accordion3:before{
+  content: "";
+  width: 5px;
+  height: 100%;
+  background: #004e89;
+  position: absolute;
+  top: 0;
+  left: 22px;
+  z-index: -1;
+}
+#accordion3 .panel-title a{
+  display: block;
+  padding: 10px 30px 15px 0;
+  background: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  color: #004e89;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  box-shadow: 0 1px 2px rgba(43,59,93,0.30);
+}
+#accordion3 .panel-title a:before{
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #cad5c2;
+  text-align: center;
+  font-size: 17px;
+  color: #004e89;
+  border: 6px solid #004e89;
+  position: absolute;
+  top: 0;
+  left: -80px;
+}
+#accordion3 .panel-title a.collapsed:before{
+  content: "\f067";
+  background: #fff;
+}
+#accordion3 .panel-body{
+  padding: 0px 15px;
+  background: #eee;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) inset, 0 1px 2px rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  color: #487677;
+  line-height: 25px;
+}
+
+
+
+/* Service section stylng */
+
+
+/* Blog section styling */
+.blog-content{
+  padding-bottom:30px ;
+}
+
+.blog-content h3{
+  font-size: 20px;
+}
+
+/* .img-blog{
+border-radius: 5px;
+/* padding-bottom: 20px; */
+
+
+/* Contact section styling */
+
+.contact-form{
+text-align:center;
+padding-bottom: 25px;
+}
+
+
+#yyy{
+  width: 25%
+}
+
+#dee {
+ 
+width: 59%;
+}
+#ree {
+
+width: 59%;
+}
+#mee {
+
+width: 69%;
+}
+#wee {
+
+width: 69%;
+}
+#kkk {
+
+width: 79%;
+}
+
+
+/* body {
+  background: #eee !important;    
+} */
+
+.wrapper {  
+  margin-top: 80px;
+margin-bottom: 80px;
+}
+
+.form-signin {
+max-width: 380px;
+padding: 15px 35px 45px;
+margin: 0 auto;
+background-color: #fff;
+border: 1px solid rgba(0,0,0,0.1);  
+}
+.form-signin-heading,
+  .checkbox {
+    margin-bottom: 30px;
+  }
+
+  .checkbox {
+    font-weight: normal;
+  }
+
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+     
+  }
+
+  input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+
+
+
+/* cart */
+* {
+margin: 0;
+padding: 0;
+}
+.bbb {
+background-color: #F2EEE9;
+font: normal 13px/1.5 Georgia, Serif;
+color: #333;
+}
+.wrapperx {
+width: 705px;
+margin: 20px auto;
+padding: 20px;
+}
+h1 {
+display: inline-block;
+background-color: #333;
+color: #fff;
+font-size: 20px;
+font-weight: normal;
+text-transform: uppercase;
+padding: 4px 20px;
+/* float: left; */
+}
+.clear {
+clear: both;
+}
+.items {
+display: block;
+margin: 20px 0;
+}
+.item {
+background-color: #fff;
+float: left;
+margin: 0 10px 10px 0;
+width: 205px;
+padding: 10px;
+height: 290px;
+}
+.item img {
+display: block;
+margin: auto;
+}
+h3 {
+font-size: 16px;
+display: block;
+border-bottom: 1px solid #ccc;
+margin: 0 0 10px 0;
+padding: 0 0 5px 0;
+}
+button {
+border: 1px solid #722A1B;
+padding: 4px 14px;
+background-color: #fff;
+color: #722A1B;
+text-transform: uppercase;
+float: right;
+margin: 5px 0;
+font-weight: bold;
+cursor: pointer;
+}
+span {
+float: right;
+}
+/* .shopping-cart {
+display: inline-block;
+background: url('http://cdn1.iconfinder.com/data/icons/jigsoar-icons/24/_cart.png') no-repeat 0 0;
+width: 24px;
+height: 24px;
+margin: 0 10px 0 0;
+} */
+
+/* cccccccc */
+.contact {
+
+width: 100%;
+}
+.sasc, .section-title{
+margin: 0 auto;
+}
+
+.contact .info {
+padding: 30px;
+background: #fff;
+width: 100%;
+box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .info i {
+font-size: 20px;
+color: #149ddd;
+float: left;
+width: 44px;
+height: 44px;
+background: #dff3fc;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+padding: 0 0 0 60px;
+font-size: 22px;
+font-weight: 600;
+margin-bottom: 5px;
+color: #050d18;
+} 
+
+.contact .info p {
+padding: 0 0 10px 60px;
+margin-bottom: 20px;
+font-size: 14px;
+color: #173b6c;
+} 
+
+.contact .info .email p {
+padding-top: 5px;
+}
+
+.contact .info .social-links {
+padding-left: 60px;
+}
+
+.contact .info .social-links a {
+font-size: 18px;
+display: inline-block;
+background: #333;
+color: #fff;
+line-height: 1;
+/* padding: 8px 0; */
+border-radius: 50%;
+text-align: center;
+width: 36px;
+height: 36px;
+transition: 0.3s;
+margin-right: 10px;
+}
+
+.contact .info .social-links a:hover {
+background: #149ddd;
+color: #fff;
+} */
+
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+background: #149ddd;
+color: #fff;
+}
+
+.contact .php-email-form {
+width: 100%;
+padding: 30px;
+background: grey;
+box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .php-email-form .form-group {
+padding-bottom: 8px;
+}
+
+.contact .php-email-form .validate {
+display: none;
+color: red;
+margin: 0 0 15px 0;
+font-weight: 400;
+font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+display: none;
+color: #fff;
+background: #ed3c0d;
+text-align: left;
+padding: 15px;
+font-weight: 600;
+}
+
+.contact .php-email-form .error-message br + br {
+margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+display: none;
+color: #fff;
+background: #18d26e;
+text-align: center;
+padding: 15px;
+font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+display: none;
+background: #fff;
+text-align: center;
+padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+content: "";
+display: inline-block;
+border-radius: 50%;
+width: 24px;
+height: 24px;
+margin: 0 10px -6px 0;
+border: 3px solid #18d26e;
+border-top-color: #eee;
+-webkit-animation: animate-loading 1s linear infinite;
+animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input, .contact .php-email-form textarea {
+border-radius: 0;
+box-shadow: none;
+font-size: 14px;
+}
+
+.contact .php-email-form input {
+height: 44px;
+}
+
+.contact .php-email-form button[type="submit"] {
+background: #149ddd;
+border: 0;
+padding: 10px 24px;
+color: #fff;
+transition: 0.4s;
+border-radius: 4px;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+background: #37b3ed;
+}
+
